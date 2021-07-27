@@ -1,4 +1,5 @@
 import React from "react";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
@@ -7,9 +8,11 @@ function App() {
         <div className="col">
           <h2>React Dictionary App</h2>
         </div>
+        <div>
+          <Dictionary />
+        </div>
       </div>
-      <h3>this is my react dictionary app</h3>
-      <p>
+      <footer>
         This react dictionary app is{" "}
         <a
           href="https://www.github.com/tiarafeaster/dictionary-react"
@@ -22,7 +25,7 @@ function App() {
         <a href="http://www.tiarajfeaster.com" target="_blank" rel="noreferrer">
           Tiara Feaster
         </a>
-      </p>
+      </footer>
     </div>
   );
 }
