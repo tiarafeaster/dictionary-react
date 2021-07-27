@@ -2,3 +2,6 @@
   margin: 30px;
   text-transform: capitalize;
 }
+.Results h2 {
+  color: green;
+}

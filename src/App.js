@@ -23,7 +23,7 @@ function App() {
         </a>{" "}
         and coded by{" "}
         <a href="http://www.tiarajfeaster.com" target="_blank" rel="noreferrer">
-          Tiara Feaster
+           🏳️‍🌈 Tiara Feaster ✊🏾
         </a>
       </footer>
     </div>

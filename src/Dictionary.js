@@ -28,9 +28,16 @@ function Dictionary() {
 
   return (
     <div>
-      <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={handleKeywordChange} />
-        <button>Search</button>
+      <form>
+        <input
+          type="search"
+          autoFocus={true}
+          onChange={handleKeywordChange}
+          placeholder="melanin"
+        />
+        <button className="btn-primary" onClick={search}>
+          Search
+        </button>
       </form>
       <Results results={results} />
     </div>
