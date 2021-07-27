@@ -5,7 +5,7 @@ function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(`searching for ${keyword}`);
+    alert(`searching for ${keyword} definition`);
   }
 
   function handleKeywordChange(event) {
