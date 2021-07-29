@@ -5,9 +5,6 @@ function App() {
   return (
     <div className="App container ">
       <div className="row">
-        <div className="col">
-          <h2>React Dictionary App</h2>
-        </div>
         <div>
           <Dictionary />
         </div>

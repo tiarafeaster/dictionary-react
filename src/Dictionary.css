@@ -1,0 +1,20 @@
+.Dictionary section {
+  padding: 10px 0 0 0;
+  border-radius: 16px;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.Dictionary h2 {
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.Dictionary input {
+  border: 1px solid #e2cef5;
+}
+
+.Dictionary button {
+  background-color: #872abd;
+  color: #e2cef5;
+}
