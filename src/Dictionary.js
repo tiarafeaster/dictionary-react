@@ -44,7 +44,7 @@ function Dictionary() {
   return (
     <div className="Dictionary">
       <section>
-        <h2>React Dictionary App</h2>
+        <h2>Tiara's Awesome Dictionary App</h2>
 
         <form>
           <input
