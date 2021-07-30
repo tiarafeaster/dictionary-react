@@ -28,15 +28,15 @@ function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <h2>React Dictionary App</h2>
-
       <section>
+        <h2>React Dictionary App</h2>
+
         <form>
           <input
             type="search"
             autoFocus={true}
             onChange={handleKeywordChange}
-            placeholder="melanin"
+            placeholder=" mɛlənən"
           />
           <button className="btn" onClick={search}>
             Search

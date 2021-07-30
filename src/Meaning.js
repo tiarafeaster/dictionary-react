@@ -9,16 +9,17 @@ function Meaning(props) {
       {props.meaning.definitions.map((definition, index) => {
         return (
           <div key={index}>
-            <p>
+            <div className="definition">
               {" "}
-              <strong> Definition: </strong>
+              <span> Definition: </span>
               {definition.definition}
-              <br />
-              <strong> Example: </strong>
-              <em> {definition.example}</em>
-              <br />
-              <Synonyms synonyms={definition.synonyms} />
-            </p>
+            </div>
+            <div className="example">
+              {" "}
+              <span> Example: </span> {definition.example}
+            </div>
+
+            <Synonyms synonyms={definition.synonyms} />
           </div>
         );
       })}

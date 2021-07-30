@@ -1,10 +1,7 @@
 .Synonyms {
-  margin-top: 10px;
+  margin: 10px 0 0;
 }
-.Synonyms p {
-  color: rgb(19, 18, 18);
-}
-
-.Synonyms strong {
-  color: darkblue;
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
 }

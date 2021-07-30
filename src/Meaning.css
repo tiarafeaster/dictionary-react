@@ -1,10 +1,21 @@
 .Meaning {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.Meaning h4 {
+.Meaning h4,
+.Meaning span {
   color: #872abd;
 }
 
-.Meaning p {
+.Meaning .definition {
   color: #8e78ee;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.Meaning .example {
+  color: #8e78ee;
+  font-style: italic;
+  font-size: 18px;
+  padding: 3px;
+  margin: 10px 0;
 }
